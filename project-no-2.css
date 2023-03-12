@@ -117,16 +117,40 @@
     height: 250px;
 }
 
-/* .abd{
-    background-image: url(https://mattfarley.ca/img/hero-devices.svg);
-    height: 30rem;
-    width: 100%;
-    margin-top: 5rem;
-    background-size: cover; 
-    
-    
+.new-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-bottom: 3rem;
+
 }
-*/
+.content-11{
+    text-align: center;
+}
+.card-11{
+    background-color: #fafafa;
+    color: #000000;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    border-radius: 10px ;
+    padding:25px ;
+    margin: 15px;
+    transition: 2s ease;
+}
+
+.card-11:hover{
+    transform: scale(1.1);
+}
+.decoration{
+    text-decoration: none;
+    color: #000000;
+}
+.card-11 .icon-11{
+    color:#3f4c70 ;
+    font-size: 5em;
+} 
 .ali2 {
     width: 100%;
     height: 34rem;
