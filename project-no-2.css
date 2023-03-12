@@ -387,3 +387,19 @@ a:hover i {
       max-width: 100%;
 
     } }*/
+    @media (max-width:641px){
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10rem;
+            padding: 10rem;
+        }
+        .num1{
+            border: 1px solid;
+            box-shadow: 5px 10px 8px #888888;
+            text-align: center;
+            font-weight: 700;
+            width: 80%;
+    }
+}
