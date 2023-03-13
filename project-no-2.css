@@ -393,7 +393,7 @@ a:hover i {
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(5, 1fr);
             gap: 10rem;
-            padding: 10rem;
+            padding: 4rem;
         }
         .num1{
             border: 1px solid;
