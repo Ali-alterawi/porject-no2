@@ -1,0 +1,274 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .back {
+    background-image: url(/porject-no2/img/4873152.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+  header{
+    background-color: #212529;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+  }
+  .logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+  }
+  .navigation a{
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .navigation a:hover{
+    color: rgb(96, 94, 94);
+  }
+  .a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    padding-top: 16rem;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.container-new {
+    width: 9.25em;
+    height: 1.15em;
+    font-size: 4rem;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.container-new div {
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.upper {
+    top: 0;
+    height: 52.5%;
+    color: #f60505;
+    overflow: hidden;
+    z-index: 3;
+    animation: moveUp 1.5s ease-in-out 1;
+    background-color: #121212;
+
+}
+
+.lower {
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(180deg, #121212 52.5%, #860303 52.5%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    z-index: 1;
+    animation: moveDown 1.5s ease-in-out 1;
+}
+
+.inside {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    z-index: 2;
+    font-size: 1rem;
+    color: #dc143c;
+}
+
+@keyframes moveUp {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50%,
+    70% {
+        top: -45px;
+    }
+}
+
+@keyframes moveDown {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50%,
+    70% {
+        top: 30px;
+    }
+}
+
+@media (max-width: 424px) {
+    .container-new {
+        font-size: 2.5rem;
+
+    }
+
+    .inside {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-new {
+        font-size: 2rem;
+
+    }
+
+    .inside {
+        font-size: 0.5rem;
+    }
+}
+.main{
+    width: 50%;
+    margin-left: 2rem;
+}
+.main h2 span{
+    display: inline-block;
+    color: black;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+.Ali{
+    width: 67%;
+    height: 63%;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    margin-left: 1rem;
+    justify-content: space-between;
+}
+.personal-img{
+    display: inline-block;
+
+}
+.introduction .main p{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+    border: #000000 solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 251, 251);
+    text-align: center;
+    height: 45%;
+
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        border: #ffffff;
+    }
+    .item-1, .item-2, .item-3{
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 850px) {
+    .item-1, .item-2{
+        border-right: #000000 solid;
+    }
+}
+
+
+.item-1 {
+    justify-content: center;
+    padding: 2px;
+    width: 33%;
+    ;
+
+
+}
+
+.item-1 img {
+    height: 64px;
+    width: 64px;
+}
+
+.item-2 {
+    padding: 1px;
+    width: 34%;
+    ;
+}
+
+.item-3 {
+    padding: 1px;
+    width: 33%;
+
+}
+h2,
+h4 {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.flex{
+    margin-top: 3rem;
+    font-weight: 700;
+    width: 90%;
+    margin-left: 5% ;
+}
+.bold {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+span {
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.rem-2{
+    font-size: 1.5rem;
+    margin: 0;
+}
+h2{
+    font-size: 2rem;
+}
