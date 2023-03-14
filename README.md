@@ -1,7 +1,8 @@
 # porject-no2
 css+html
 
-second project
+second project: In this project, I have built a Portfolio as a responsive static web application that effectively displays my skills, projects, and how to contact with me.
+
 
 tools used:
 
