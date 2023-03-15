@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 .back {
-  background-image: url(/porject-no2/img/4873152.jpg);
+  background-image: url(/img/4873152.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -180,6 +180,7 @@ header{
     color: #3d0206;
     font-size: 2.25em;
     font-weight: 600;
+    margin-left: 8rem;
     /* padding-right: 0.8rem; */
 }
 
